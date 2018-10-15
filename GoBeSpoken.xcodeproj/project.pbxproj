@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F779A0FD2174D94F00725997 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F779A0FC2174D94F00725997 /* AppDelegate.swift */; };
+		F779A0FF2174D94F00725997 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F779A0FE2174D94F00725997 /* ViewController.swift */; };
+		F779A1022174D94F00725997 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F779A1002174D94F00725997 /* Main.storyboard */; };
+		F779A1052174D94F00725997 /* GoBeSpoken.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F779A1032174D94F00725997 /* GoBeSpoken.xcdatamodeld */; };
+		F779A1072174D95100725997 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F779A1062174D95100725997 /* Assets.xcassets */; };
+		F779A10A2174D95100725997 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F779A1082174D95100725997 /* LaunchScreen.storyboard */; };
+		F779A1152174D95100725997 /* GoBeSpokenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F779A1142174D95100725997 /* GoBeSpokenTests.swift */; };
+		F779A1202174D95100725997 /* GoBeSpokenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F779A11F2174D95100725997 /* GoBeSpokenUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F779A1112174D95100725997 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F779A0F12174D94F00725997 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F779A0F82174D94F00725997;
+			remoteInfo = GoBeSpoken;
+		};
+		F779A11C2174D95100725997 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F779A0F12174D94F00725997 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F779A0F82174D94F00725997;
+			remoteInfo = GoBeSpoken;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F779A0F92174D94F00725997 /* GoBeSpoken.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoBeSpoken.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F779A0FC2174D94F00725997 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F779A0FE2174D94F00725997 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F779A1012174D94F00725997 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F779A1042174D94F00725997 /* GoBeSpoken.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GoBeSpoken.xcdatamodel; sourceTree = "<group>"; };
+		F779A1062174D95100725997 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F779A1092174D95100725997 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F779A10B2174D95100725997 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F779A1102174D95100725997 /* GoBeSpokenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoBeSpokenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F779A1142174D95100725997 /* GoBeSpokenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoBeSpokenTests.swift; sourceTree = "<group>"; };
+		F779A1162174D95100725997 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F779A11B2174D95100725997 /* GoBeSpokenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoBeSpokenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F779A11F2174D95100725997 /* GoBeSpokenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoBeSpokenUITests.swift; sourceTree = "<group>"; };
+		F779A1212174D95100725997 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F779A0F62174D94F00725997 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F779A10D2174D95100725997 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F779A1182174D95100725997 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F779A0F02174D94F00725997 = {
+			isa = PBXGroup;
+			children = (
+				F779A0FB2174D94F00725997 /* GoBeSpoken */,
+				F779A1132174D95100725997 /* GoBeSpokenTests */,
+				F779A11E2174D95100725997 /* GoBeSpokenUITests */,
+				F779A0FA2174D94F00725997 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F779A0FA2174D94F00725997 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F779A0F92174D94F00725997 /* GoBeSpoken.app */,
+				F779A1102174D95100725997 /* GoBeSpokenTests.xctest */,
+				F779A11B2174D95100725997 /* GoBeSpokenUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F779A0FB2174D94F00725997 /* GoBeSpoken */ = {
+			isa = PBXGroup;
+			children = (
+				F779A0FC2174D94F00725997 /* AppDelegate.swift */,
+				F779A0FE2174D94F00725997 /* ViewController.swift */,
+				F779A1002174D94F00725997 /* Main.storyboard */,
+				F779A1062174D95100725997 /* Assets.xcassets */,
+				F779A1082174D95100725997 /* LaunchScreen.storyboard */,
+				F779A10B2174D95100725997 /* Info.plist */,
+				F779A1032174D94F00725997 /* GoBeSpoken.xcdatamodeld */,
+			);
+			path = GoBeSpoken;
+			sourceTree = "<group>";
+		};
+		F779A1132174D95100725997 /* GoBeSpokenTests */ = {
+			isa = PBXGroup;
+			children = (
+				F779A1142174D95100725997 /* GoBeSpokenTests.swift */,
+				F779A1162174D95100725997 /* Info.plist */,
+			);
+			path = GoBeSpokenTests;
+			sourceTree = "<group>";
+		};
+		F779A11E2174D95100725997 /* GoBeSpokenUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F779A11F2174D95100725997 /* GoBeSpokenUITests.swift */,
+				F779A1212174D95100725997 /* Info.plist */,
+			);
+			path = GoBeSpokenUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F779A0F82174D94F00725997 /* GoBeSpoken */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F779A1242174D95100725997 /* Build configuration list for PBXNativeTarget "GoBeSpoken" */;
+			buildPhases = (
+				F779A0F52174D94F00725997 /* Sources */,
+				F779A0F62174D94F00725997 /* Frameworks */,
+				F779A0F72174D94F00725997 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoBeSpoken;
+			productName = GoBeSpoken;
+			productReference = F779A0F92174D94F00725997 /* GoBeSpoken.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F779A10F2174D95100725997 /* GoBeSpokenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F779A1272174D95100725997 /* Build configuration list for PBXNativeTarget "GoBeSpokenTests" */;
+			buildPhases = (
+				F779A10C2174D95100725997 /* Sources */,
+				F779A10D2174D95100725997 /* Frameworks */,
+				F779A10E2174D95100725997 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F779A1122174D95100725997 /* PBXTargetDependency */,
+			);
+			name = GoBeSpokenTests;
+			productName = GoBeSpokenTests;
+			productReference = F779A1102174D95100725997 /* GoBeSpokenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F779A11A2174D95100725997 /* GoBeSpokenUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F779A12A2174D95100725997 /* Build configuration list for PBXNativeTarget "GoBeSpokenUITests" */;
+			buildPhases = (
+				F779A1172174D95100725997 /* Sources */,
+				F779A1182174D95100725997 /* Frameworks */,
+				F779A1192174D95100725997 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F779A11D2174D95100725997 /* PBXTargetDependency */,
+			);
+			name = GoBeSpokenUITests;
+			productName = GoBeSpokenUITests;
+			productReference = F779A11B2174D95100725997 /* GoBeSpokenUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F779A0F12174D94F00725997 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Shahid Akhtar Shaikh";
+				TargetAttributes = {
+					F779A0F82174D94F00725997 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					F779A10F2174D95100725997 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = F779A0F82174D94F00725997;
+					};
+					F779A11A2174D95100725997 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = F779A0F82174D94F00725997;
+					};
+				};
+			};
+			buildConfigurationList = F779A0F42174D94F00725997 /* Build configuration list for PBXProject "GoBeSpoken" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F779A0F02174D94F00725997;
+			productRefGroup = F779A0FA2174D94F00725997 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F779A0F82174D94F00725997 /* GoBeSpoken */,
+				F779A10F2174D95100725997 /* GoBeSpokenTests */,
+				F779A11A2174D95100725997 /* GoBeSpokenUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F779A0F72174D94F00725997 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F779A10A2174D95100725997 /* LaunchScreen.storyboard in Resources */,
+				F779A1072174D95100725997 /* Assets.xcassets in Resources */,
+				F779A1022174D94F00725997 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F779A10E2174D95100725997 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F779A1192174D95100725997 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F779A0F52174D94F00725997 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F779A0FF2174D94F00725997 /* ViewController.swift in Sources */,
+				F779A1052174D94F00725997 /* GoBeSpoken.xcdatamodeld in Sources */,
+				F779A0FD2174D94F00725997 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F779A10C2174D95100725997 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F779A1152174D95100725997 /* GoBeSpokenTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F779A1172174D95100725997 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F779A1202174D95100725997 /* GoBeSpokenUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F779A1122174D95100725997 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F779A0F82174D94F00725997 /* GoBeSpoken */;
+			targetProxy = F779A1112174D95100725997 /* PBXContainerItemProxy */;
+		};
+		F779A11D2174D95100725997 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F779A0F82174D94F00725997 /* GoBeSpoken */;
+			targetProxy = F779A11C2174D95100725997 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F779A1002174D94F00725997 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F779A1012174D94F00725997 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F779A1082174D95100725997 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F779A1092174D95100725997 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F779A1222174D95100725997 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F779A1232174D95100725997 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F779A1252174D95100725997 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GoBeSpoken/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.teqnirvana.GoBeSpoken;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F779A1262174D95100725997 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GoBeSpoken/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.teqnirvana.GoBeSpoken;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F779A1282174D95100725997 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GoBeSpokenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.teqnirvana.GoBeSpokenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoBeSpoken.app/GoBeSpoken";
+			};
+			name = Debug;
+		};
+		F779A1292174D95100725997 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GoBeSpokenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.teqnirvana.GoBeSpokenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoBeSpoken.app/GoBeSpoken";
+			};
+			name = Release;
+		};
+		F779A12B2174D95100725997 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GoBeSpokenUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.teqnirvana.GoBeSpokenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GoBeSpoken;
+			};
+			name = Debug;
+		};
+		F779A12C2174D95100725997 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GoBeSpokenUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.teqnirvana.GoBeSpokenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GoBeSpoken;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F779A0F42174D94F00725997 /* Build configuration list for PBXProject "GoBeSpoken" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F779A1222174D95100725997 /* Debug */,
+				F779A1232174D95100725997 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F779A1242174D95100725997 /* Build configuration list for PBXNativeTarget "GoBeSpoken" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F779A1252174D95100725997 /* Debug */,
+				F779A1262174D95100725997 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F779A1272174D95100725997 /* Build configuration list for PBXNativeTarget "GoBeSpokenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F779A1282174D95100725997 /* Debug */,
+				F779A1292174D95100725997 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F779A12A2174D95100725997 /* Build configuration list for PBXNativeTarget "GoBeSpokenUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F779A12B2174D95100725997 /* Debug */,
+				F779A12C2174D95100725997 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F779A1032174D94F00725997 /* GoBeSpoken.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F779A1042174D94F00725997 /* GoBeSpoken.xcdatamodel */,
+			);
+			currentVersion = F779A1042174D94F00725997 /* GoBeSpoken.xcdatamodel */;
+			path = GoBeSpoken.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F779A0F12174D94F00725997 /* Project object */;
+}
