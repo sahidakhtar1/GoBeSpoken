@@ -1,24 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="lWz-tV-wf2">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <!--Navigation Controller-->
+        <scene sceneID="zYq-Sr-Dol">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <navigationController navigationBarHidden="YES" id="lWz-tV-wf2" sceneMemberID="viewController">
+                    <nil key="simulatedTopBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="PYW-pu-w3O">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="Ut9-LT-xUf" kind="relationship" relationship="rootViewController" id="Ozm-pK-7OP"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Z2p-0f-gwY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-678" y="129"/>
+        </scene>
+        <!--Login View Controller-->
+        <scene sceneID="FOL-Fu-qhs">
+            <objects>
+                <viewController id="Ut9-LT-xUf" customClass="LoginViewController" customModule="GoBeSpoken" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="RyY-HE-BGb">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="oeo-ei-dHb">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="be_spoken_logo" translatesAutoresizingMaskIntoConstraints="NO" id="Vam-nK-dR1">
+                                <rect key="frame" x="101.66666666666669" y="280" width="172" height="252"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="252" id="eeR-7K-fXg"/>
+                                    <constraint firstAttribute="width" constant="172" id="qhB-gP-K97"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="oeo-ei-dHb" firstAttribute="leading" secondItem="5Js-q5-yOU" secondAttribute="leading" id="NHQ-CR-IjP"/>
+                            <constraint firstItem="Vam-nK-dR1" firstAttribute="centerX" secondItem="RyY-HE-BGb" secondAttribute="centerX" id="Q9u-bd-ldE"/>
+                            <constraint firstItem="oeo-ei-dHb" firstAttribute="bottom" secondItem="5Js-q5-yOU" secondAttribute="bottom" constant="34" id="drc-Jl-gU1"/>
+                            <constraint firstItem="oeo-ei-dHb" firstAttribute="trailing" secondItem="5Js-q5-yOU" secondAttribute="trailing" id="hsw-6n-C3h"/>
+                            <constraint firstItem="Vam-nK-dR1" firstAttribute="centerY" secondItem="RyY-HE-BGb" secondAttribute="centerY" id="nWr-8j-CWJ"/>
+                            <constraint firstItem="oeo-ei-dHb" firstAttribute="top" secondItem="RyY-HE-BGb" secondAttribute="top" id="yz3-40-gpk"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="5Js-q5-yOU"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="qEm-NT-MMe"/>
+                    <connections>
+                        <outlet property="imgBg" destination="oeo-ei-dHb" id="gUF-NP-zMb"/>
+                        <outlet property="imgLogo" destination="Vam-nK-dR1" id="heF-wl-uIX"/>
+                        <outlet property="imgLogoCenterVerticalContraint" destination="nWr-8j-CWJ" id="c60-S1-ZtY"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Yfk-Op-bRV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="104.8" y="127.83251231527095"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="be_spoken_logo" width="177" height="251.66667175292969"/>
+        <image name="bg" width="375" height="667"/>
+    </resources>
 </document>

@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		F779A0FD2174D94F00725997 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F779A0FC2174D94F00725997 /* AppDelegate.swift */; };
-		F779A0FF2174D94F00725997 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F779A0FE2174D94F00725997 /* ViewController.swift */; };
 		F779A1022174D94F00725997 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F779A1002174D94F00725997 /* Main.storyboard */; };
 		F779A1052174D94F00725997 /* GoBeSpoken.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F779A1032174D94F00725997 /* GoBeSpoken.xcdatamodeld */; };
 		F779A1072174D95100725997 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F779A1062174D95100725997 /* Assets.xcassets */; };
 		F779A10A2174D95100725997 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F779A1082174D95100725997 /* LaunchScreen.storyboard */; };
 		F779A1152174D95100725997 /* GoBeSpokenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F779A1142174D95100725997 /* GoBeSpokenTests.swift */; };
 		F779A1202174D95100725997 /* GoBeSpokenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F779A11F2174D95100725997 /* GoBeSpokenUITests.swift */; };
+		F779A1302174EF0500725997 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F779A12F2174EF0500725997 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +37,6 @@
 /* Begin PBXFileReference section */
 		F779A0F92174D94F00725997 /* GoBeSpoken.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoBeSpoken.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F779A0FC2174D94F00725997 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F779A0FE2174D94F00725997 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F779A1012174D94F00725997 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F779A1042174D94F00725997 /* GoBeSpoken.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GoBeSpoken.xcdatamodel; sourceTree = "<group>"; };
 		F779A1062174D95100725997 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +48,7 @@
 		F779A11B2174D95100725997 /* GoBeSpokenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoBeSpokenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F779A11F2174D95100725997 /* GoBeSpokenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoBeSpokenUITests.swift; sourceTree = "<group>"; };
 		F779A1212174D95100725997 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F779A12F2174EF0500725997 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +99,8 @@
 		F779A0FB2174D94F00725997 /* GoBeSpoken */ = {
 			isa = PBXGroup;
 			children = (
+				F779A12D2174EEDB00725997 /* ViewControllers */,
 				F779A0FC2174D94F00725997 /* AppDelegate.swift */,
-				F779A0FE2174D94F00725997 /* ViewController.swift */,
 				F779A1002174D94F00725997 /* Main.storyboard */,
 				F779A1062174D95100725997 /* Assets.xcassets */,
 				F779A1082174D95100725997 /* LaunchScreen.storyboard */,
@@ -126,6 +126,22 @@
 				F779A1212174D95100725997 /* Info.plist */,
 			);
 			path = GoBeSpokenUITests;
+			sourceTree = "<group>";
+		};
+		F779A12D2174EEDB00725997 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F779A12E2174EEE600725997 /* LoginVC */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		F779A12E2174EEE600725997 /* LoginVC */ = {
+			isa = PBXGroup;
+			children = (
+				F779A12F2174EF0500725997 /* LoginViewController.swift */,
+			);
+			path = LoginVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,7 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F779A0FF2174D94F00725997 /* ViewController.swift in Sources */,
+				F779A1302174EF0500725997 /* LoginViewController.swift in Sources */,
 				F779A1052174D94F00725997 /* GoBeSpoken.xcdatamodeld in Sources */,
 				F779A0FD2174D94F00725997 /* AppDelegate.swift in Sources */,
 			);
@@ -436,16 +452,21 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = 3JXQ54JDCN;
 				INFOPLIST_FILE = GoBeSpoken/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.teqnirvana.GoBeSpoken;
+				PRODUCT_BUNDLE_IDENTIFIER = com.soumya.daan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = Dev;
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
+				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
 		};
@@ -453,16 +474,21 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = 3JXQ54JDCN;
 				INFOPLIST_FILE = GoBeSpoken/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.teqnirvana.GoBeSpoken;
+				PRODUCT_BUNDLE_IDENTIFIER = com.soumya.daan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = Dev;
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
+				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
 		};

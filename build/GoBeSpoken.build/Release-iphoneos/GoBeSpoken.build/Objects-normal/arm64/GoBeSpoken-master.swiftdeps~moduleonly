@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.1 (swiftlang-1100.0.270.13 clang-1100.0.33.7)"
+options: "ba4db2c4e4c63d9f00db8c396c9bd75a"
+build_time: [1579533427, 674346000]
+inputs:
+  "/Users/shahid/Documents/Workspace/GoBeSpoken/SourceCode/GoBeSpoken/GoBeSpoken/ViewControllers/LoginVC/LoginViewController.swift": [9223372036, 854775807]
+  "/Users/shahid/Documents/Workspace/GoBeSpoken/SourceCode/GoBeSpoken/GoBeSpoken/AppDelegate.swift": [9223372036, 854775807]
