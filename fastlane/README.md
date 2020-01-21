@@ -16,9 +16,9 @@ or alternatively using `brew cask install fastlane`
 
 # Available Actions
 ## iOS
-### ios debug
+### ios bamboo_debug
 ```
-fastlane ios debug
+fastlane ios bamboo_debug
 ```
 Description of what the lane does
 
