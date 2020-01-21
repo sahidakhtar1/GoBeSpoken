@@ -17,7 +17,7 @@ default_platform(:ios)
 
 platform :ios do
   desc "Description of what the lane does"
-  lane :debug do
+  lane :bamboo_debug do
     # add actions here: https://docs.fastlane.tools/actions
 	increment_build_number
 	gym(configuration: "Debug", export_method: "development")
